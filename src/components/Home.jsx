@@ -12,9 +12,7 @@ function Home() {
           <h2>I build things for the web.</h2>
           <p>
             I'm a Chicago based software developer who specializes in building
-            exceptional digital experiences. Currently, I'm looking for
-            opportunities to leverage my skills and experience bringing front-
-            and back-end solutions to life! Please take a look around to see
+            exceptional digital experiences. Please take a look around to see
             what I've been working on.
           </p>
           <div>

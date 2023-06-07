@@ -71,7 +71,7 @@ export const StyledHome = styled.div`
 
   img {
     background-color: white;
-    height: 100px;
+    height: 80px;
     margin: 60px 25px 0 25px;
     animation: 1s ease-out 0s 1 slideInBottom;
   }

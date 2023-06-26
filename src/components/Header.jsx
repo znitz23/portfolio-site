@@ -22,7 +22,10 @@ function Header() {
           <NavLink to="/contact" className="navlink">
             Contact
           </NavLink>
-          <Button>&#8623; Resume</Button>
+          <Button>
+            href="Zach.Nitzkin.Resume.pdf".pdf" title="Zach-Nitzkin-Resume"
+            &#8623; Resume
+          </Button>
         </Nav>
       </Container>
     </StyledHeader>

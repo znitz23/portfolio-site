@@ -23,7 +23,7 @@ function Header() {
             Contact
           </NavLink>
           <Button>
-            href="Zach.Nitzkin.Resume.pdf".pdf" title="Zach-Nitzkin-Resume"
+            {/* href="Zach.Nitzkin.Resume.pdf".pdf" title="Zach-Nitzkin-Resume" */}
             &#8623; Resume
           </Button>
         </Nav>

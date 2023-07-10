@@ -23,7 +23,7 @@ function Header() {
             Contact
           </NavLink>
           <Button
-            href="./assets/Zach-Nitzkin-Resume.pdf"
+            href="./assets/Zach.Nitzkin.Resume.2023.pdf"
             target="_blank"
             download
           >

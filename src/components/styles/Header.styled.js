@@ -28,6 +28,9 @@ export const Nav = styled.nav`
   justify-content: space-between;
   margin-top: 10px;
 
+  button {
+  }
+
   :hover {
     transform: scale(1.15);
     text-shadow: #304d80 1px 0 7px;
@@ -42,7 +45,7 @@ export const Nav = styled.nav`
       }
     }
     animation: 1s ease-out 0s 1 slideInTop;
-    margin-left: auto;
+    margin-left: 10px;
   }
 
   .navlink {

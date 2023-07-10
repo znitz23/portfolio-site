@@ -22,8 +22,11 @@ function Header() {
           <NavLink to="/contact" className="navlink">
             Contact
           </NavLink>
-          <Button>
-            {/* href="Zach.Nitzkin.Resume.pdf".pdf" title="Zach-Nitzkin-Resume" */}
+          <Button
+            href="./assets/Zach-Nitzkin-Resume.pdf"
+            target="_blank"
+            download
+          >
             &#8623; Resume
           </Button>
         </Nav>

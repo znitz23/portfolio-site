@@ -7,6 +7,7 @@ import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Portfolio from "./Portfolio.jsx";
 import Contact from "./Contact.jsx";
+import Footer from "./Footer";
 
 const theme = {
   colors: {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   );

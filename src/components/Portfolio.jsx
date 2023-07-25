@@ -64,14 +64,14 @@ function Portfolio() {
           <AppLogo>
             <Carousel data={images.tsov} />
             <section>
-              <a href="https://threestreetsofvalue.fly.dev/" target="_blank">
+              <a
+                href="https://tsov-63570b4cc5c7.herokuapp.com/"
+                target="_blank"
+              >
                 Demo
               </a>
 
-              <a
-                href="https://github.com/znitz23/three-streets-of-value-pern"
-                target="_blank"
-              >
+              <a href="https://github.com/znitz23/tsov-heroku" target="_blank">
                 <img
                   className="ghLogo"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"

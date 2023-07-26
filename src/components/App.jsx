@@ -20,16 +20,17 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <Header />
         <Container>
+          <Header />
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/portfolio" element={<Portfolio />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
+          <div className="spacer"></div>
+          <Footer />
         </Container>
-        <Footer />
       </>
     </ThemeProvider>
   );

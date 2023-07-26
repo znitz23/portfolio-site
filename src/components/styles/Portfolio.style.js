@@ -5,16 +5,39 @@ export const StyledPortfolio = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: none;
 
-  img,
-  button {
-    background-color: white;
-    opacity: 100;
-    border: none;
-    width: 250px;
+  .gg-logo {
+    width: 300px;
     height: 200px;
-    margin: 0px 0 100px 0;
+    border: none;
     cursor: pointer;
+    padding: 0 20px 0 20px;
+  }
+  .tsov-logo {
+    width: 225px;
+    height: 175px;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+  }
+  .nav-logos {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    margin: 20px 25px 35px 25px;
+    height: 150px;
+    width: 240px;
+  }
+
+  .clicked {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.45);
   }
 
   section {
@@ -22,35 +45,32 @@ export const StyledPortfolio = styled.div`
   }
 `;
 
-export const AppLogo = styled.button`
-  background-color: white;
+export const AppLogo = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
-  border: none;
-  display: flex;
   flex-direction: column;
-  padding-top: 50px;
 
   a {
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     width: 145px;
     height: 45px;
-    border: none;
     background-color: #fff;
     color: #fff;
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.45);
     text-align: center;
     align-content: center;
-    text-decoration: none;
-    font-weight: 700;
+    font-weight: bolder;
     color: black;
+    text-decoration: none;
     margin: 30px 8px 0 8px;
+    cursor: pointer;
   }
   .ghLogo {
-    margin-top: 97px;
     width: 35px;
     height: 35px;
   }

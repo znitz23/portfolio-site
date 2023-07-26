@@ -14,17 +14,17 @@ function Contact() {
           <a href="mailto:znitz23@gmail.com">znitz23@gmail.com</a>!
         </p>
         <form>
-          <input
+          <textarea
             type="text"
             placeholder="Type here"
             className="input-box"
-          ></input>
+          ></textarea>
           <br></br>
           <input type="text" placeholder="Name"></input>
           <br></br>
           <input type="text" placeholder="Email address"></input>
           <br></br>
-          <Button>Submit</Button>
+          <button>Submit</button>
         </form>
       </ContactStyled>
     </>

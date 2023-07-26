@@ -21,7 +21,6 @@ export const Carousel = ({ data }) => {
           onClick={previousSlide}
         />
         {data.map((item, idx) => {
-          console.log(item.src);
           return (
             <img
               src={item.src}

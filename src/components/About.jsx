@@ -21,9 +21,9 @@ function About() {
         <p class="lower">
           Fast forward to today and I've begun building and designing front- and
           back-end applications using a variety of tools. Recently I've been
-          most narrowly focused on React, its many libraries and dependancies
-          and the infitie possiblities of creating responsive, customer friendly
-          web applications.
+          most narrowly focused on front-end web development utilizing React,
+          its many libraries and dependancies and the infitie possiblities of
+          creating responsive, customer friendly web applications.
         </p>
         <div>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />

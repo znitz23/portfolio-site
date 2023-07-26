@@ -28,13 +28,6 @@ export const Nav = styled.nav`
   justify-content: space-between;
   margin-top: 10px;
 
-  button {
-  }
-
-  :hover {
-    transform: scale(1.15);
-    text-shadow: #304d80 1px 0 7px;
-  }
   :last-child {
     @keyframes slideInTop {
       0% {
@@ -46,6 +39,7 @@ export const Nav = styled.nav`
     }
     animation: 1s ease-out 0s 1 slideInTop;
     margin-left: 10px;
+    margin-right: 30px;
   }
 
   .navlink {
@@ -54,11 +48,16 @@ export const Nav = styled.nav`
     text-decoration: none;
     margin: 0 20px 0 20px;
   }
+
+  .navlink.active {
+    transition: all 0.3;
+    color: black;
+  }
 `;
 
 export const Logo = styled.img`
   animation: 1s ease-out 0s 1 slideInLeft;
   max-width: 80px;
   border-radius: 70%;
-  margin-right: 1 1;
+  margin-left: 30px;
 `;

@@ -27,7 +27,7 @@ export const ContactStyled = styled.div`
 
   .input-box {
     height: 125px;
-    text-align: center;
+    text-align: left;
   }
 
   form {
@@ -35,7 +35,14 @@ export const ContactStyled = styled.div`
     flex-direction: column;
   }
 
-  Button {
-    background-color: green;
+  button {
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: #0c5ff0;
+    color: white;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
   }
 `;

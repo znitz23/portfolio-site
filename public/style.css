@@ -9,3 +9,7 @@ body {
   font-family: "Bangers", cursive;
   font-family: "PT Sans Narrow", sans-serif;
 }
+
+.spacer {
+  height: 100px;
+}

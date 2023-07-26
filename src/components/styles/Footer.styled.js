@@ -5,25 +5,16 @@ export const StyledFooter = styled.div`
   justify-content: center;
   align-items: center;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  position: fixed;
   left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #7d7c7c;
-  height: 70px;
+  background-image: linear-gradient(to top, #d7d9d9, #ebeded);
+  height: 65px;
 `;
 
 export const Logo = styled.a`
   img {
-    height: 55px;
+    height: 50px;
     margin: 0 75px 0 75px;
-  }
-
-  .lkd {
-    height: 180px;
   }
 `;

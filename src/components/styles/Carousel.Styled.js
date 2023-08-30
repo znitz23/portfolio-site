@@ -5,7 +5,7 @@ export const CarouselStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
 
   a {
     display: flex;
